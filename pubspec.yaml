@@ -1,0 +1,16 @@
+name: peabot
+description: Discord Bot
+version: 1.0.0
+
+publish_to: none
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+ http: ^0.13.6
+ mineral: ^3.2.0
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
